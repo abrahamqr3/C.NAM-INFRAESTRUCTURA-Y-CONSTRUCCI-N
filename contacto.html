@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C.NAM Infraestructura y Construcción | Contacto</title>
+  <meta name="description" content="Ponte en contacto con nosotros. Formulario, datos y mapa de ubicación.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+  <header class="encabezado">
+    <div class="contenedor encabezado__interior">
+      <a href="index.html" class="logo"><img src="img/Captura de pantalla 2026-07-02 102725.png"
+          alt="C.NAM INFRAESTRUCTURA Y CONSTRUCCIÓN" class="logo__imagen"></a>
+      <nav class="menu" id="menu">
+        <a href="index.html" class="menu__enlace">Inicio</a>
+        <a href="servicios.html" class="menu__enlace">Servicios</a>
+        <a href="proyectos.html" class="menu__enlace">Proyectos</a>
+        <a href="contacto.html" class="menu__enlace activo">Contacto</a>
+      </nav>
+      <button class="hamburguesa" id="btnMenu" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="cabecera-pagina">
+    <div class="contenedor">
+      <p class="etiqueta revelar">Contacto</p>
+      <h1 class="revelar">Hablemos de tu proyecto</h1>
+      <p class="cabecera-pagina__texto revelar">Llena el formulario o usa cualquiera de nuestros datos de contacto.</p>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="contenedor contacto">
+
+      <form class="formulario revelar" id="formularioContacto" novalidate>
+        <h2>Envíanos un mensaje</h2>
+
+        <div class="campo">
+          <label for="nombre">Nombre *</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo">
+          <small class="error" id="errorNombre"></small>
+        </div>
+
+        <div class="campo">
+          <label for="correo">Correo electrónico *</label>
+          <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com">
+          <small class="error" id="errorCorreo"></small>
+        </div>
+
+        <div class="campo">
+          <label for="telefono">Teléfono (opcional)</label>
+          <input type="tel" id="telefono" name="telefono" placeholder="(000) 000 0000">
+        </div>
+
+        <div class="campo">
+          <label for="mensaje">Mensaje *</label>
+          <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos qué necesitas..."></textarea>
+          <small class="error" id="errorMensaje"></small>
+        </div>
+
+        <button type="submit" class="boton boton--primario">Enviar mensaje</button>
+
+        <p class="exito" id="mensajeExito" hidden>✅ ¡Gracias! Tu mensaje se registró correctamente.</p>
+
+      </form>
+
+      <div class="datos-contacto revelar">
+        <h2>Información de contacto</h2>
+        <ul>
+          <li><strong>📍 Dirección:</strong> Calle Galeana, No. Ext. 63, Int. 2, Col. San José, C.P. 39200, Ayutla de los Libres, Guerrero.</li>
+          <li><strong>📞 Teléfono:</strong> (747) 184 0447</li>
+          <li><strong>✉️ Correo:</strong> cnam.ic@outlook.com</li>
+          <li><strong>📄 R.F.C.:</strong> CIC190228IK5</li>
+          <li><strong>🕒 Horario:</strong> Lunes a viernes, 9:00 a 18:00</li>
+        </ul>
+
+        <h3>Síguenos</h3>
+        <div class="redes">
+          <a href="#" aria-label="Facebook">Facebook</a>
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="WhatsApp">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion seccion--gris">
+    <div class="contenedor">
+      <p class="etiqueta revelar">Ubicación</p>
+      <h2 class="seccion__titulo revelar">¿Dónde estamos?</h2>
+
+      <div class="mapa revelar">
+        <iframe src="https://www.google.com/maps?q=Calle+Galeana+63,San+Jose,Ayutla+de+los+Libres,Guerrero&output=embed" width="100%" height="420"
+          style="border:0" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          title="Mapa de ubicación">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer class="pie">
+    <div class="contenedor pie__interior">
+      <div>
+        <p class="logo logo--pie">C.NAM<span> Infraestructura y Construcción</span></p>
+        <p class="pie__texto">Construimos confianza, calidad y futuro.</p>
+      </div>
+      <div>
+        <h4>Enlaces</h4>
+        <a href="index.html">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <p>📍 Calle Galeana, No. Ext. 63, Int. 2, Col. San José, C.P. 39200, Ayutla de los Libres, Guerrero.</p>
+        <p>📞 (747) 184 0447</p>
+        <p>✉️ cnam.ic@outlook.com</p>
+      </div>
+    </div>
+    <div class="pie__final">
+      <p>© <span id="anio"></span> C.NAM Infraestructura y Construcción. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

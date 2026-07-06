@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C.NAM Infraestructura y Construcción | Proyectos</title>
+  <meta name="description" content="Galería de proyectos realizados.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+  <header class="encabezado">
+    <div class="contenedor encabezado__interior">
+      <a href="index.html" class="logo"><img src="img/Captura de pantalla 2026-07-02 102725.png"
+          alt="C.NAM INFRAESTRUCTURA Y CONSTRUCCIÓN" class="logo__imagen"></a>
+      <nav class="menu" id="menu">
+        <a href="index.html" class="menu__enlace">Inicio</a>
+        <a href="servicios.html" class="menu__enlace">Servicios</a>
+        <a href="proyectos.html" class="menu__enlace activo">Proyectos</a>
+        <a href="contacto.html" class="menu__enlace">Contacto</a>
+      </nav>
+      <button class="hamburguesa" id="btnMenu" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="cabecera-pagina">
+    <div class="contenedor">
+      <p class="etiqueta revelar">Proyectos</p>
+      <h1 class="revelar">Trabajos que hablan por nosotros</h1>
+      <p class="cabecera-pagina__texto revelar">Una selección de nuestros proyectos más recientes.</p>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="contenedor">
+
+      <div class="filtros revelar">
+        <button class="filtro activo" data-filtro="todos">Todos</button>
+      </div>
+
+      <div class="proyectos" id="listaProyectos">
+        <!-- 1. dormito.jpeg -->
+        <article class="proyecto revelar" data-categoria="obra-civil">
+          <div class="proyecto__imagen">
+            <img src="img/dormito.jpeg" alt="Edificación de dormitorios y aulas">
+          </div>
+          <div class="proyecto__info">
+            <span class="proyecto__categoria">Obra Civil</span>
+            <h3>Edificación - Dormitorios</h3>
+            <p>Estructura y acabados exteriores de dormitorios listas para su operación.</p>
+          </div>
+        </article>
+
+        <!-- 2. imagen 1 cancha.jpeg -->
+        <article class="proyecto revelar" data-categoria="obra-civil">
+          <div class="proyecto__imagen">
+            <img src="img/imagen 1 cancha.jpeg" alt="Losa de concreto para cancha deportiva">
+          </div>
+          <div class="proyecto__info">
+            <span class="proyecto__categoria">Obra Civil</span>
+            <h3>Cancha Deportiva - Concreto</h3>
+            <p>Colado y acabado de losa de concreto para cancha deportiva de básquetbol y explanada escolar.</p>
+          </div>
+        </article>
+
+        <!-- 3. imagen 2 cancha.jpeg -->
+        <article class="proyecto revelar" data-categoria="obra-civil">
+          <div class="proyecto__imagen">
+            <img src="img/imagen 2 cancha.jpeg" alt="Domo y techumbre de cancha deportiva">
+          </div>
+          <div class="proyecto__info">
+            <span class="proyecto__categoria">Obra Civil</span>
+            <h3>Cancha Deportiva </h3>
+            <p>
+              Preparación y nivelación del terreno, instalación del sistema de drenaje,
+              conformación y compactación de la base, colocación del césped, trazo de las líneas reglamentarias e
+              instalación del equipamiento deportivo, garantizando el cumplimiento de las especificaciones técnicas y
+              de calidad.
+            </p>
+          </div>
+        </article>
+
+        <!-- 4. imagen 3 imagen.jpeg -->
+        <article class="proyecto revelar" data-categoria="obra-civil">
+          <div class="proyecto__imagen">
+            <img src="img/imagen 3 imagen.jpeg" alt="Diseño de módulo escolar de dos niveles">
+          </div>
+          <div class="proyecto__info">
+            <span class="proyecto__categoria">Obra Civil</span>
+            <h3>Proyecto - Edificio Escolar Multifuncional</h3>
+            <p>Diseño arquitectónico y estructural de un edificio escolar de dos niveles con rampas de acceso.</p>
+          </div>
+        </article>
+
+        <!-- 5. imagen 4 imagen.jpeg -->
+        <article class="proyecto revelar" data-categoria="obra-civil">
+          <div class="proyecto__imagen">
+            <img src="img/imagen 4 imagen.jpeg" alt="Supervisión técnica de colado de losa">
+          </div>
+          <div class="proyecto__info">
+            <span class="proyecto__categoria">Obra Civil</span>
+            <h3>Supervisión - Losa y Cimentación</h3>
+            <p>Supervisión técnica y control de calidad durante el armado y colado de elementos estructurales.</p>
+          </div>
+        </article>
+
+        <!-- 6. pavimentacion 2.jpeg -->
+        <article class="proyecto revelar" data-categoria="obra-civil">
+          <div class="proyecto__imagen">
+            <img src="img/pavimentacion 2.jpeg" alt="Excavación pluvial en vialidad">
+          </div>
+          <div class="proyecto__info">
+            <span class="proyecto__categoria">Obra Civil</span>
+            <h3>Pavimentación - Drenaje y Servicios</h3>
+            <p>Excavación e introducción de tubería pluvial y sanitaria previas a la pavimentación de la vialidad.</p>
+          </div>
+        </article>
+
+        <!-- 7. pavimentacion 3.jpeg -->
+        <article class="proyecto revelar" data-categoria="obra-civil">
+          <div class="proyecto__imagen">
+            <img src="img/pavimentacion 3.jpeg" alt="Carpeta asfáltica en caliente">
+          </div>
+          <div class="proyecto__info">
+            <span class="proyecto__categoria">Obra Civil</span>
+            <h3>Pavimentación - Drenaje y Servicios</h3>
+            <p>Excavación e introducción de tubería pluvial y sanitaria previas a la pavimentación de la vialidad.</p>
+          </div>
+        </article>
+
+        <!-- 8. pavimentacion.jpeg -->
+        <article class="proyecto revelar" data-categoria="obra-civil">
+          <div class="proyecto__imagen">
+            <img src="img/pavimentacion.jpeg" alt="Preparación de base hidráulica para asfalto">
+          </div>
+          <div class="proyecto__info">
+            <span class="proyecto__categoria">Obra Civil</span>
+            <h3>Pavimentación - Drenaje y Servicios</h3>
+            <p>Excavación e introducción de tubería pluvial y sanitaria previas a la pavimentación de la vialidad.</p>
+          </div>
+        </article>
+
+        <!-- 9. sanitario.jpeg -->
+        <article class="proyecto revelar" data-categoria="obra-civil">
+          <div class="proyecto__imagen">
+            <img src="img/sanitario.jpeg" alt="Módulo sanitario de sanitarios escolares">
+          </div>
+          <div class="proyecto__info">
+            <span class="proyecto__categoria">Obra Civil</span>
+            <h3>Edificación - Módulo Sanitario</h3>
+            <p>Construcción integral de baño con instalaciones de plomería, losetas y acabados completos.</p>
+          </div>
+        </article>
+
+        <!-- 10. tanque de agua  (1).jpeg -->
+        <article class="proyecto revelar" data-categoria="obra-civil">
+          <div class="proyecto__imagen">
+            <img src="img/tanque de agua  (1).jpeg" alt="Base y cimentación del tanque de agua">
+          </div>
+          <div class="proyecto__info">
+            <span class="proyecto__categoria">Obra Civil</span>
+            <h3>Tanque de almacenamiento</h3>
+            <p>Tanque de almacenamiento de agua .</p>
+          </div>
+        </article>
+
+        <!-- 11. tanque de agua  (2).jpeg -->
+        <article class="proyecto revelar" data-categoria="obra-civil">
+          <div class="proyecto__imagen">
+            <img src="img/tanque de agua  (2).jpeg" alt="Muros estructurales del tanque de agua">
+          </div>
+          <div class="proyecto__info">
+            <span class="proyecto__categoria">Obra Civil</span>
+            <h3>Tubería de agua </h3>
+            <p>Introducción de tubería de agua para el suministro a los hogares.</p>
+          </div>
+        </article>
+
+        <!-- 12. tanque de agua (3).jpeg -->
+        <article class="proyecto revelar" data-categoria="obra-civil">
+          <div class="proyecto__imagen">
+            <img src="img/tanque de agua (3).jpeg" alt="Tanque de almacenamiento de agua terminado">
+          </div>
+          <div class="proyecto__info">
+            <span class="proyecto__categoria">Obra Civil</span>
+            <h3>Tanque de almacenamiento - Terminado</h3>
+            <p>Proyecto concluido del tanque de almacenamiento de agua</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="contenedor cta__interior revelar">
+      <h2>¿Quieres que tu proyecto esté aquí?</h2>
+      <p>Hablemos de lo que necesitas.</p>
+      <a href="contacto.html" class="boton boton--claro">Ir a contacto</a>
+    </div>
+  </section>
+
+  <footer class="pie">
+    <div class="contenedor pie__interior">
+      <div>
+        <p class="logo logo--pie">C.NAM<span> Infraestructura y Construcción</span></p>
+        <p class="pie__texto">Construimos confianza, calidad y futuro.</p>
+      </div>
+      <div>
+        <h4>Enlaces</h4>
+        <a href="index.html">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <p>📍 Calle Galeana, No. Ext. 63, Int. 2, Col. San José, C.P. 39200, Ayutla de los Libres, Guerrero.</p>
+        <p>📞 (747) 184 0447</p>
+        <p>✉️ cnam.ic@outlook.com</p>
+      </div>
+    </div>
+    <div class="pie__final">
+      <p>© <span id="anio"></span> C.NAM Infraestructura y Construcción. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Modal Lightbox para Imágenes -->
+  <div id="modalLightbox" class="lightbox" aria-hidden="true" role="dialog">
+    <button class="lightbox__cerrar" aria-label="Cerrar">&times;</button>
+    <div class="lightbox__contenido">
+      <img id="lightboxImagen" src="" alt="">
+      <p id="lightboxCaption" class="lightbox__pie"></p>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
